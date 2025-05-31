@@ -12,6 +12,16 @@ This project automates the ethical hacking reconnaissance phase for a target dom
 - Sherlock (optional)
 - Manual note for DNSdumpster
 
+## 🚀 Usage
+
+Make sure you have Python 3 installed.
+
+1. Clone the repo:
+```bash
+git clone https://github.com/Pramodhcyb/auto-footprinting.git
+cd auto-footprinting
+
+
 ## 🔧 How to Run
 
 ```bash
@@ -31,3 +41,6 @@ Results will be saved in a folder named `recon_<target_domain>`.
 - `theharvester.txt`
 - `sherlock.txt` *(optional)*
 - `dnsdumpster_note.txt`
+
+
+
