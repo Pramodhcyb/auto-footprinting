@@ -1,4 +1,4 @@
-# 🛡️ Auto-Footprinting Toolkit
+# 🛡️ Auto-Footprinting - Recon Toolkit
 
 An automated Python-based toolkit to perform reconnaissance and footprinting on a target domain. Designed for ethical hackers, penetration testers, and cybersecurity students.
 
