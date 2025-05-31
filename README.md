@@ -1,26 +1,33 @@
-# 🛡️ Auto-Footprinting - Recon Toolkit
+# Automated Footprinting and Reconnaissance Toolkit
 
-An automated Python-based toolkit to perform reconnaissance and footprinting on a target domain. Designed for ethical hackers, penetration testers, and cybersecurity students.
+This project automates the ethical hacking reconnaissance phase for a target domain. It uses tools like Google Dorks, WHOIS, nslookup, traceroute, and theHarvester to gather intelligence.
 
-![GitHub stars](https://img.shields.io/github/stars/Pramodhcyb/auto-footprinting?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Pramodhcyb/auto-footprinting?style=social)
+## 🛠 Tools Used
 
----
+- Google Dorking
+- WHOIS Lookup
+- DNS Records (nslookup)
+- Traceroute
+- theHarvester
+- Sherlock (optional)
+- Manual note for DNSdumpster
 
-## ⚙️ Features
-
-- 🔍 Google Dorking
-- 🌐 WHOIS Lookup
-- 🧠 DNS Footprinting (`nslookup`)
-- 📡 Traceroute
-- 📬 Email & Subdomain Harvesting (`theHarvester`)
-- 🕵️‍♂️ Sherlock (optional social media footprinting)
-- 📝 Outputs saved as individual text reports
-
----
-
-## 🔧 Requirements
+## 🔧 How to Run
 
 ```bash
-sudo apt install theharvester dnsutils traceroute
-pip install python-whois
+python3 auto_recon.py
+```
+
+Results will be saved in a folder named `recon_<target_domain>`.
+
+**Note**: Run this in a Kali Linux / Parrot OS terminal for best compatibility.
+
+## 📁 Output Files
+
+- `google_dorks.txt`
+- `whois.txt`
+- `dns_records.txt`
+- `traceroute.txt`
+- `theharvester.txt`
+- `sherlock.txt` *(optional)*
+- `dnsdumpster_note.txt`
